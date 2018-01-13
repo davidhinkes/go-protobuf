@@ -5,3 +5,5 @@ RUN apk update && apk add \
   protobuf
 
 RUN go get -u github.com/golang/protobuf/protoc-gen-go
+
+ENTRYPOINT ["protoc"]
