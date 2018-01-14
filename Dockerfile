@@ -1,6 +1,7 @@
 from golang:alpine
 
 RUN apk update && apk add \
+  bash \
   git \
   protobuf
 
